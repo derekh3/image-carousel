@@ -1,0 +1,27 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  transition: all 500ms ease-in-out 0ms;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+}
+
+.back,
+.forward {
+  cursor: pointer;
+}
+
+.image-item {
+  display: none;
+}
+
+.image-item.visible {
+  display: inline-block;
+}
