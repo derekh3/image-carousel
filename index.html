@@ -12,20 +12,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="carousel-container">
-      <span class="material-symbols-outlined back"> arrow_back_ios </span>
-      <div class="carousel-images-container">
-        <div class="image-item visible">
-          <img src="chicken_veggies.jpg" alt="" />
+    <div class="outer-container">
+      <div class="carousel-container">
+        <span class="material-symbols-outlined back"> arrow_back_ios </span>
+        <div class="carousel-images-container">
+          <div class="image-item visible">
+            <img src="chicken_veggies.jpg" alt="" class="fadeIn" />
+          </div>
+          <div class="image-item">
+            <img src="mail.jpg" alt="" />
+          </div>
+          <div class="image-item">
+            <img src="menu.jpg" alt="" />
+          </div>
         </div>
-        <div class="image-item">
-          <img src="mail.jpg" alt="" />
-        </div>
-        <div class="image-item">
-          <img src="menu.jpg" alt="" />
-        </div>
+        <span class="material-symbols-outlined forward">
+          arrow_forward_ios
+        </span>
       </div>
-      <span class="material-symbols-outlined forward"> arrow_forward_ios </span>
+      <div class="circles"></div>
     </div>
     <script src="script.js"></script>
   </body>
