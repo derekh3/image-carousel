@@ -96,3 +96,8 @@ forward.onclick = () => {
 back.onclick = () => {
   moveBack(carousel, circlesContainer);
 };
+
+let intervalID = setInterval(
+  () => moveForward(carousel, circlesContainer),
+  5000
+);
